@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mathe-Kärtchen</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- MathJax für LaTeX -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)']],
+        displayMath: [['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    async>
+  </script>
+</head>
+
+<body>
+  <main class="card">
+    <h1>Kärtchen ziehen</h1>
+    <p class="subtitle">Wähle den Kartensatz, gib deinen persönlichen Code ein und klicke dann auf „Karte anzeigen“.</p>
+
+    <label for="set">Kartensatz</label>
+    <select id="set"></select>
+
+    <label for="code">Dein Code</label>
+    <input id="code" maxlength="10" placeholder="z. B. A7K" autocomplete="off">
+
+    <button id="show">Karte anzeigen</button>
+    <div id="error" class="error"></div>
+
+    <section id="result" class="result">
+        <div id="cardText" class="term"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

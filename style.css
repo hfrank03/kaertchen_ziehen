@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background: #f4f6f7;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.card {
+  width: min(620px, 100%);
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 34px;
+  box-shadow: 0 8px 30px rgba(28, 109, 135, 0.14);
+  border-top: 6px solid #1C6D87;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 0 8px;
+  color: #1C6D87;
+  font-weight: 700;
+}
+
+.subtitle {
+  text-align: center;
+  margin: 0 0 28px;
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin: 16px 0 7px;
+  color: #1C6D87;
+}
+
+select,
+input,
+button {
+  width: 100%;
+  font: inherit;
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+
+select,
+input {
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+}
+
+select:focus,
+input:focus {
+  outline: 2px solid #E1B37B;
+  outline-offset: 1px;
+  border-color: #1C6D87;
+}
+
+button {
+  margin-top: 20px;
+  border: 0;
+  background: #1C6D87;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background: #15576d;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.result {
+  display: none;
+  margin-top: 26px;
+  padding: 30px 24px;
+  border: 2px solid #E1B37B;
+  border-radius: 14px;
+  background: #fffaf4;
+  text-align: center;
+}
+
+.result-label {
+  color: #1C6D87;
+  font-weight: 600;
+}
+
+.term {
+  font-size: clamp(1.5rem, 5vw, 2.4rem);
+  font-weight: 700;
+  color: #1C6D87;
+  margin: 18px 0;
+}
+
+.hint {
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+
+.error {
+  color: #a33b2e;
+  margin-top: 12px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* MathJax darf nicht durch die normale Schriftgröße der Karte eingeschränkt werden */
+.term mjx-container {
+  font-size: 1.15em !important;
+}
