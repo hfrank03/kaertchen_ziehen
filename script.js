@@ -165,6 +165,49 @@ const kartensaetze = {
     "8K5": "\\(f(x)=(x+2)\\)"
   },
 
+  "Quadratische Funktionen": { // Formen quadratischer Funktionen: Hauptform, Scheitelform, Produktform > 3er Gruppen Zuordnung
+
+    "0FC": "\\(f(x)=x^2+6x+8\\)",
+    "12D": "\\(f(x)=(x+2)\\cdot(x+4)\\)",
+    "1H4": "\\(f(x)=(x+3)^2-1\\)",
+
+    "3MK": "\\(f(x)=x^2-4x-5\\)",
+    "3VO": "\\(f(x)=(x-5)\\cdot(x+1)\\)",
+    "8KO": "\\(f(x)=(x-2)^2-9\\)",
+
+    "43U": "\\(f(x)=x^2-2x-8\\)",
+    "4EP": "\\(f(x)=(x-4)\\cdot(x+2)\\)",
+    "CIC": "\\(f(x)=(x-1)^2-9\\)",
+
+    "7L0": "\\(f(x)=x^2+2x-15\\)",
+    "FC8": "\\(f(x)=(x-3)\\cdot(x+5)\\)",
+    "EN7": "\\(f(x)=(x+1)^2-16\\)",
+
+    "8GK": "\\(f(x)=x^2-6x+5\\)",
+    "84P": "\\(f(x)=(x-1)\\cdot(x-5)\\)",
+    "JWF": "\\(f(x)=(x-3)^2-4\\)",
+
+    "AUW": "\\(f(x)=x^2+5x+6\\)",
+    "ASO": "\\(f(x)=(x+2)\\cdot(x+3)\\)",
+    "M26": "\\(f(x)=\\left(x+\\frac{5}{2}\\right)^2-\\frac{1}{4}\\)",
+
+    "REE": "\\(f(x)=x^2-8x+12\\)",
+    "S2I": "\\(f(x)=(x-2)\\cdot(x-6)\\)",
+    "SC9": "\\(f(x)=(x-4)^2-4\\)",
+
+    "US8": "\\(f(x)=x^2+4x-12\\)",
+    "WI0": "\\(f(x)=(x-2)\\cdot(x+6)\\)",
+    "Y38": "\\(f(x)=(x+2)^2-16\\)",
+
+    "FQ6": "\\(f(x)=x^2-x-6\\)",
+    "HEB": "\\(f(x)=(x-3)\\cdot(x+2)\\)",
+    "IM2": "\\(f(x)=\\left(x-\\frac{1}{2}\\right)^2-\\frac{25}{4}\\)",
+
+    "M0H": "\\(f(x)=-x^2+4x+5\\)",
+    "PFI": "\\(f(x)=(-x+5)\\cdot(x+1)\\)",
+    "8K5": "\\(f(x)=-(x-2)^2+9\\)"
+  },
+
   "Polynomfunktionen I": { // Globales Verhalten von Polynomfunktionen > 4 Gruppen
 
     "0FC": "\\(f(x)=x^4+\\frac{1}{2}x-8\\)",
