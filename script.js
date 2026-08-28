@@ -282,27 +282,27 @@ const kartensaetze = {
 
 };
 
-const setElement = document.getElementById("set");
 const codeElement = document.getElementById("code");
+
+// Kartensatz aus dem URL-Parameter ?set=... bestimmen
+const urlParameter = new URLSearchParams(window.location.search);
+const setName = urlParameter.get("set");
 const showButton = document.getElementById("show");
 const resultElement = document.getElementById("result");
 const cardTextElement = document.getElementById("cardText");
 const errorElement = document.getElementById("error");
 
-// Kartensätze in Auswahl eintragen
-for (const name of Object.keys(kartensaetze)) {
-  const option = document.createElement("option");
-  option.value = name;
-  option.textContent = name;
-  setElement.appendChild(option);
-}
-
 async function zeigeKarte() {
-  const kartensatz = kartensaetze[setElement.value];
+  const kartensatz = kartensaetze[setName];
   const code = codeElement.value.trim().toUpperCase();
 
   errorElement.textContent = "";
   resultElement.style.display = "none";
+
+  if (!kartensatz) {
+    errorElement.textContent = "Kartensatz nicht gefunden.";
+    return;
+  }
 
   if (!code) {
     errorElement.textContent = "Bitte Code eingeben.";
