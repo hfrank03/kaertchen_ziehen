@@ -11,7 +11,7 @@
 
 const kartensaetze = {
 
-  "Schablone (leer)": {
+  "(leer)": { // Vorlage
     
     "0FC": "",
     "12D": "",
@@ -45,7 +45,7 @@ const kartensaetze = {
     "Y38": "",
   },
   
-  "Zahlenmengen & Intervalle (3er Gruppen)": {
+  "Intervalle": { // Zahlenmengen & Intervalle > 3er Gruppen Zuordnung
 
     "0FC": "\\(\\{x\\in\\mathbb{R}|-1\\leq x < 5\\}\\)",
     "12D": "Alle Zahlen zwischen \\(-1\\) und \\(5\\). Dabei ist die \\(-1\\) noch enthalten, aber die \\(5\\) nicht.",
@@ -122,7 +122,7 @@ const kartensaetze = {
     "Y38": "",
   },
 
-  "Quadratische Funktionen -- Produktform": { // 3er Gruppen
+  "Produktform": { // Produktform quadratischer Funktionen > 3er Gruppen Zuordnung
 
     "0FC": "\\(f(x)=x^2+4x+3\\)",
     "12D": "\\(f(x)=(x+1)\\)",
@@ -165,41 +165,7 @@ const kartensaetze = {
     "8K5": "\\(f(x)=(x+2)\\)"
   },
 
-  "Potenzfunktionen": {
-    
-    "0FC": "",
-    "12D": "",
-    "1H4": "",
-    "3MK": "",
-    "3VO": "",
-    "43U": "",
-    "4EP": "",
-    "7L0": "",
-    "84P": "",
-    "8GK": "",
-    "8K5": "",
-    "8KO": "",
-    "ASO": "",
-    "AUW": "",
-    "CIC": "",
-    "EN7": "",
-    "FC8": "",
-    "FQ6": "",
-    "HEB": "",
-    "IM2": "",
-    "JWF": "",
-    "M0H": "",
-    "M26": "",
-    "PFI": "",
-    "REE": "",
-    "S2I": "",
-    "SC9": "",
-    "US8": "",
-    "WI0": "",
-    "Y38": "",
-  },
-
-  "Globales Verhalten von Polynomfunktionen": { // 4 Gruppen
+  "Polynomfunktionen I": { // Globales Verhalten von Polynomfunktionen > 4 Gruppen
 
     "0FC": "\\(f(x)=x^4+\\frac{1}{2}x-8\\)",
     "12D": "\\(f(x)=x^4+x^3-x^2\\)",
@@ -236,7 +202,7 @@ const kartensaetze = {
     "Y38": "\\(f(x)=-x^3+3x^2+x-5\\)",
   },
 
-  "Symmetrie von Polynomfunktionen": {
+  "Polynomfunktionen II": { // Symmetrie von Polynomfunktionen
     
     "0FC": "\\(f(x)=-2x^5+7x^3+x\\)",
     "12D": "\\(f(x)=-x^6+10x^4+2x^2\\)",
