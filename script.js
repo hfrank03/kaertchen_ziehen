@@ -122,6 +122,44 @@ const kartensaetze = {
     "Y38": "",
   },
 
+  "Quadratische Funktionen": { // Quadratische Funktionen > Gruppenpuzzle
+    
+    "AUW": "\\(f(x)=x^2+1\\) (Gruppe 1)",
+    "7L0": "\\(f(x)=4x^2\\) (Gruppe 1)",
+    "IM2": "\\(f(x)=-6x^2\\) (Gruppe 1)",
+    "3MK": "\\(f(x)=-\\frac{2}{3}x^2\\) (Gruppe 1)",
+    "Y38": "\\(f(x)=7,5x^2\\) (Gruppe 1)",
+    "8K5": "\\(f(x)=0,3x^2\\) (Gruppe 1)",
+
+    "FC8": "\\(f(x)=-7x^2\\) (Gruppe 2)",
+    "12D": "\\(f(x)=-3,5x^2\\) (Gruppe 2)",
+    "REE": "\\(f(x)=\\frac{1}{2}x^2\\) (Gruppe 2)",
+    "0FC": "\\(f(x)=2x^2\\) (Gruppe 2)",
+    "JWF": "\\(f(x)=-x^2+4\\) (Gruppe 2)",
+    "SC9": "\\(f(x)=-0,1x^2\\) (Gruppe 2)",
+
+    "43U": "\\(f(x)=-\\frac{1}{4}x^2\\) (Gruppe 3)",
+    "ASO": "\\(f(x)=x^2+1\\) (Gruppe 3)",
+    "M26": "\\(f(x)=0,6x^2\\) (Gruppe 3)",
+    "8KO": "\\(f(x)=-3x^2\\) (Gruppe 3)",
+    "HEB": "\\(f(x)=10x^2\\) (Gruppe 3)",
+    "1H4": "\\(f(x)=-2,5x^2-1\\) (Gruppe 3)",
+
+    "PFI": "\\(f(x)=3x^2-1\\) (Gruppe 4)",
+    "WI0": "\\(f(x)=-x^2\\) (Gruppe 4)",
+    "CIC": "\\(f(x)=0,9x^2\\) (Gruppe 4)",
+    "4EP": "\\(f(x)=21x^2\\) (Gruppe 4)",
+    "FQ6": "\\(f(x)=-8x^2\\) (Gruppe 4)",
+    "84P": "\\(f(x)=\\frac{1}{5}x^2\\) (Gruppe 4)",
+
+    "EN7": "\\(f(x)=-0,75x^2\\) (Gruppe 5)",
+    "US8": "\\(f(x)=x^2-0,5\\) (Gruppe 5)",
+    "3VO": "\\(f(x)=2x^2+1\\) (Gruppe 5)",
+    "S2I": "\\(f(x)=-3x^2\\) (Gruppe 5)",
+    "M0H": "\\(f(x)=-4x^2\\) (Gruppe 5)",
+    "8GK": "\\(f(x)=\\frac{1}{5}x^2\\) (Gruppe 5)",
+  },
+
   "Produktform": { // Produktform quadratischer Funktionen > 3er Gruppen Zuordnung
 
     "0FC": "\\(f(x)=x^2+4x+3\\)",
@@ -165,7 +203,7 @@ const kartensaetze = {
     "8K5": "\\(f(x)=(x+2)\\)"
   },
 
-  "Quadratische Funktionen": { // Formen quadratischer Funktionen: Hauptform, Scheitelform, Produktform > 3er Gruppen Zuordnung
+  "Formen Quadratischer Funktionen": { // Formen quadratischer Funktionen: Hauptform, Scheitelform, Produktform > 3er Gruppen Zuordnung
 
     "0FC": "\\(f(x)=x^2+6x+8\\)",
     "12D": "\\(f(x)=(x+2)\\cdot(x+4)\\)",
@@ -206,6 +244,83 @@ const kartensaetze = {
     "M0H": "\\(f(x)=-x^2+4x+5\\)",
     "PFI": "\\(f(x)=(-x+5)\\cdot(x+1)\\)",
     "8K5": "\\(f(x)=-(x-2)^2+9\\)"
+  },
+
+  "Potenzfunktionen": { // Potenzfunktionen f(x) = a*x^n, n\in Q + Gruppeninfo > Gruppenpuzzle
+    
+    "0FC": "\\(f(x)=3x^4\\) (Gruppe 1)",
+    "12D": "\\(f(x)=\\frac{1}{7}x^4\\) (Gruppe 1)",
+    "1H4": "\\(f(x)=\\frac{1}{2}x^6\\) (Gruppe 1)",
+    "3MK": "\\(f(x)=-2x^2\\) (Gruppe 1)",
+    "3VO": "\\(f(x)=-x^8\\) (Gruppe 1)",
+
+    "43U": "\\(f(x)=-\\frac{1}{4}x^3\\) (Gruppe 2)",
+    "4EP": "\\(f(x)=\\frac{1}{8}x^5\\) (Gruppe 2)",
+    "7L0": "\\(f(x)=-6x^5\\) (Gruppe 2)",
+    "84P": "\\(f(x)=7x^3\\) (Gruppe 2)",
+    "8GK": "\\(f(x)=-x^7\\) (Gruppe 2)",
+
+    "8K5": "\\(f(x)=\\frac{1}{x^4}\\) (Gruppe 3)",
+    "8KO": "\\(f(x)=5x^{-2}\\) (Gruppe 3)",
+    "ASO": "\\(f(x)=-4x^{-4}\\) (Gruppe 3)",
+    "AUW": "\\(f(x)=3x^{-10}\\) (Gruppe 3)",
+    "CIC": "\\(f(x)=-\\frac{2}{x^2}\\) (Gruppe 3)",
+
+    "EN7": "\\(f(x)=9x^{-3}\\) (Gruppe 4)",
+    "FC8": "\\(f(x)=-\\frac{1}{x^7}\\) (Gruppe 4)",
+    "FQ6": "\\(f(x)=\\frac{1}{15}x^{-1}\\) (Gruppe 4)",
+    "HEB": "\\(f(x)=x^{-7}\\) (Gruppe 4)",
+    "IM2": "\\(f(x)=-\\frac{1}{3}x^{-5}\\) (Gruppe 4)",
+
+    "JWF": "\\(f(x)=3\\sqrt[6]{x}\\) (Gruppe 5)",
+    "M0H": "\\(f(x)=0,5x^\\frac{1}{2}\\) (Gruppe 5)",
+    "M26": "\\(f(x)=\\sqrt[10]{x}\\) (Gruppe 5)",
+    "PFI": "\\(f(x)=-\\sqrt{x}\\) (Gruppe 5)",
+    "REE": "\\(f(x)=-x^\\frac{1}{4}\\) (Gruppe 5)",
+
+    "S2I": "\\(f(x)=\\sqrt[5]{x}\\) (Gruppe 6)",
+    "SC9": "\\(f(x)=-\\sqrt[3]{x}\\) (Gruppe 6)",
+    "US8": "\\(f(x)=x^\\frac{1}{7}\\) (Gruppe 6)",
+    "WI0": "\\(f(x)=-3x^\\frac{1}{5}\\) (Gruppe 6)",
+    "Y38": "\\(f(x)=2x^\\frac{1}{3}\\) (Gruppe 6)",
+  },
+
+  "Exponentialfunktionen": { // Exponentialfunktionen + Gruppeninfo > Gruppenpuzzle
+    
+    "HEB": "\\(f(x)=5,1^x\\) (1a)",
+    "3VO": "\\(f(x)=3,88^x\\) (1a)",
+    "PFI": "\\(f(x)=2^x\\) (1a)",
+    "8GK": "\\(f(x)=(\\frac{3}{2})^x\\) (1a)",
+    "AUW": "\\(f(x)=(\\frac{5}{4})^x\\) (1a)",
+    "12D": "\\(f(x)=100^x\\) (1a)",
+    "EN7": "\\(f(x)=12,5^x\\) (1a)",
+    "M0H": "\\(f(x)=7^x\\) (1a)",
+
+    "SC9": "\\(f(x)=(\\frac{11}{10})^x\\) (1b)",
+    "FQ6": "\\(f(x)=1,23^x\\) (1b)",
+    "0FC": "\\(f(x)=3^x\\) (1b)",
+    "Y38": "\\(f(x)=(\\frac{5}{2})^x\\) (1b)",
+    "4EP": "\\(f(x)=9^x\\) (1b)",
+    "IM2": "\\(f(x)=(\\frac{5}{2})^x\\) (1b)",
+    "1H4": "\\(f(x)=5^x\\) (1b)",
+    "US8": "\\(f(x)=2,5^x\\) (1b)",
+
+    "84P": "\\(f(x)=0,1^x\\) (2a)",
+    "JWF": "\\(f(x)=0,43^x\\) (2a)",
+    "ASO": "\\(f(x)=(\\frac{3}{11})^x\\) (2a)",
+    "3MK": "\\(f(x)=0,25^x\\) (2a)",
+    "WI0": "\\(f(x)=(\\frac{1}{8})^x\\) (2a)",
+    "REE": "\\(f(x)=(\\frac{1}{2})^x\\) (2a)",
+    "8K5": "\\(f(x)=(\\frac{2}{7})^x\\) (2a)",
+    "M0H": "\\(f(x)=0,6^x\\) (2a)",
+
+    "8KO": "\\(f(x)=(\\frac{4}{9})^x\\) (2b)",
+    "M26": "\\(f(x)=0,4135^x\\) (2b)",
+    "FC8": "\\(f(x)=0,99^x\\) (2b)",
+    "7L0": "\\(f(x)=0,3^x\\) (2b)",
+    "CIC": "\\(f(x)=(\\frac{4}{5})^x\\) (2b)",
+    "S2I": "\\(f(x)=(\\frac{2}{3})^x\\) (2b)",
+    "43U": "\\(f(x)=0,1^x\\) (2b)",
   },
 
   "Polynomfunktionen I": { // Globales Verhalten von Polynomfunktionen > 4 Gruppen
