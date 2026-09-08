@@ -1,3 +1,8 @@
+# Virtuelles "Kärtchen ziehen" bzw. Austeilen
+→ Weist jedem/r SuS anhand des Codes eindeutig ein Kärtchen (z.B. mit Funktiongleichung) zu.
+
+---
+
 Verfügbare Kartensätze:
 * Intervalle (→ 3er-Zuordnung)
 * Lineare Funktionen (TODO)
